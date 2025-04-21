@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("Initializing Expertise Engine Interface...");
 
     // --- Configuration ---
-    const AIRTABLE_PROXY_URL = '/api/airtable-proxy'; // <<< REPLACE WITH YOUR ACTUAL PROXY URL
+    const AIRTABLE_PROXY_URL = 'https://expertiseengineproxy.netlify.app/.netlify/functions/airtable-proxy'; // <<< REPLACE WITH YOUR ACTUAL PROXY URL
     const MAX_DICE_POOL_SIZE = 10; // Max dice allowed in pool
 
     // --- Global State ---
