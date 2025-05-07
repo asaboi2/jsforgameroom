@@ -1,7 +1,12 @@
 // ==========================================
 // Expertise Engine Game Room - Main Script
 // ==========================================
+console.log("--- gameroom.js SCRIPT STARTED ---");
 
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("--- DOMContentLoaded: Initializing Expertise Engine Interface... ---");
+    // ... rest of your gameroom.js code
+});
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Initializing Expertise Engine Interface...");
 
